@@ -7,6 +7,8 @@ def calc(operator, firstnumber, secondnumber):
         return firstnumber * secondnumber
     elif operator == '/' or operator == 'div':
         return firstnumber / secondnumber
+    elif operator == 'pow':
+        return firstnumber ^ secondnumber
     else:
         print('Invalid parameters...')
 
